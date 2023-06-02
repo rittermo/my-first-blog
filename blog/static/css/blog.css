@@ -31,7 +31,8 @@ to {background-position: -100px 0px;background-size:2750px;}
     background-color: #C25100;
     margin-top: 0;
     margin-bottom: 40px;
-    padding: 20px 20px 20px 40px;
+    padding: 6rem;
+    text-align: center;
 }
 
 .page-header h1,
@@ -44,14 +45,20 @@ to {background-position: -100px 0px;background-size:2750px;}
 }
 
 h1 {
-    font-family: 'Rubik', san-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: bold;
+    text-shadow: 3px 2px 20px #999;
+}
+
+h2 a, h3 a, h4 a {
+    text-decoration: none;
 }
 
 
 h2,
 h3,
 h4 { 
+    font-family: 'Rubik', sans-serif;
     font-weight: 700;
 }
 
@@ -79,16 +86,22 @@ h4 {
 
 .post {
     margin-bottom: 70px;
+/*    border-bottom: 1px solid grey;*/
+    padding: 4rem;
+    box-shadow: 3px 2px 20px #ebebeb;
 }
 
 .post h2 a,
 .post h2 a:visited {
-    color: #000000;
+    color: orange;
 }
 
 .post > .date,
 .post > .actions {
     float: right;
+    padding: 0.4rem .8rem;
+    border: 2px solid #ebebeb;
+    border-radius: 50rem;
 }
 
 .btn-secondary,
