@@ -31,7 +31,7 @@ to {background-position: -100px 0px;background-size:2750px;}
     background-color: #C25100;
     margin-top: 0;
     margin-bottom: 40px;
-    padding: 6rem;
+    padding: 10rem;
     text-align: center;
 }
 
@@ -89,6 +89,7 @@ h4 {
 /*    border-bottom: 1px solid grey;*/
     padding: 4rem;
     box-shadow: 3px 2px 20px #ebebeb;
+    background-color: #fff;
 }
 
 .post h2 a,
@@ -114,4 +115,8 @@ h4 {
 .btn-secondary:hover {
     color: #FFFFFF;
     background-color: #C25100;
+}
+
+.col {
+    margin-top: -6rem;
 }
