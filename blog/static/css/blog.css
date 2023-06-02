@@ -97,12 +97,22 @@ h4 {
     color: orange;
 }
 
+h2.detail_page {
+    font-size: 3rem ;
+}
+
 .post > .date,
 .post > .actions {
     float: right;
     padding: 0.4rem .8rem;
     border: 2px solid #ebebeb;
     border-radius: 50rem;
+}
+
+.post > .date_detail_page {
+   float: none;
+   display: inline-block;
+   margin: 1rem auto; 
 }
 
 .btn-secondary,
